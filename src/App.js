@@ -1,23 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PositionWidget from './widgets/Position';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <PositionWidget ethAddress="0xe1f3c653248de6894d683cb2f10de7ca2253046f" />
       </header>
     </div>
   );
